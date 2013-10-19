@@ -1,0 +1,312 @@
+.clear {
+	clear:both;
+	height:0px;
+	width:100%;
+}
+
+.ajax-table {
+	width:780px;
+	font-family:Arial;
+}
+
+.ajax-table a {
+	color:#288dd3;
+	text-decoration:none;
+}
+
+.ajax-table-header {
+	border-top:1px solid #a8c4cf;
+	border-bottom:1px solid #a8c4cf;
+	background:#f0f9ff;
+	height:35px;
+	overflow:hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ajax-table-header-field {
+	float:left;
+	height:20px;
+	padding:8px 10px 7px 10px;
+	line-height:20px;
+	color:#778ea0;
+	font-size:13px;
+	text-align:center;
+}
+
+.ajax-table-header-field span {
+	display:inline-block;
+	padding:0px 12px 0px 0px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	margin-top:-3px;
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+
+.ajax-table-header-title {
+	width:254px;
+	border-right:1px solid #e9f2f9;
+	text-align:left;
+}
+
+.ajax-table-header-title > span:hover , .ajax-table-header-title.ajax-table-sorted-asc > span, .ajax-table-header-title.ajax-table-sorted-desc > span:hover {
+	background-image:url("../images/asc.jpg");
+}
+
+.ajax-table-header-title.ajax-table-sorted-asc > span:hover , .ajax-table-header-title.ajax-table-sorted-desc > span {
+	background-image:url("../images/desc.jpg");
+}
+
+.ajax-table-header-created {
+	width:100px;
+	border-right:1px solid #e9f2f9;
+}
+
+.ajax-table-header-created > span:hover , .ajax-table-header-created.ajax-table-sorted-asc > span, .ajax-table-header-created.ajax-table-sorted-desc > span:hover {
+	background-image:url("../images/asc.jpg");
+}
+
+.ajax-table-header-created.ajax-table-sorted-asc > span:hover , .ajax-table-header-created.ajax-table-sorted-desc > span {
+	background-image:url("../images/desc.jpg");
+}
+
+.ajax-table-header-submissions {
+	width:92px;
+	border-right:1px solid #e9f2f9;
+}
+
+.ajax-table-header-submissions > span:hover , .ajax-table-header-submissions.ajax-table-sorted-asc > span, .ajax-table-header-submissions.ajax-table-sorted-desc > span:hover {
+	background-image:url("../images/asc.jpg");
+}
+
+.ajax-table-header-submissions.ajax-table-sorted-asc > span:hover , .ajax-table-header-submissions.ajax-table-sorted-desc > span {
+	background-image:url("../images/desc.jpg");
+}
+
+.ajax-table-header-published {
+	width:115px;
+	border-right:1px solid #e9f2f9;
+	cursor:default;
+}
+
+.ajax-table-header-published span {
+	padding:0px;
+	cursor:default;
+}
+
+.ajax-table-header-published select {
+	font-size:13px;
+}
+
+.ajax-table-content {
+	background:#fff;
+}
+
+.ajax-table-row {
+	border-bottom:1px solid #f1f1f1;
+}
+
+.ajax-table-row-content {
+	overflow:hidden;
+	height:40px;
+	background:#fff;
+}
+
+.ajax-table-row-content:hover {
+	background:#f3f3f3;
+}
+
+.ajax-table-field {
+	float:left;
+	height:40px;
+	line-height:40px;
+	padding:0px 10px;
+	text-align:center;
+	font-size:13px;
+	height:100%;
+}
+
+.ajax-table-field span {
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+}
+
+.ajax-table-field span span {
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.ajax-table-field-title {
+	width:254px;
+	border-right:1px solid #fff;
+	text-align:left;
+}
+
+.ajax-table-field-title span {
+	max-width:229px;
+}
+
+.ajax-table-row-expandable .ajax-table-field-title > span {
+	background-repeat:no-repeat;
+	background-position : right center;
+	background-image:url("../images/plus.jpg");
+	padding:0px 20px 0px 0px;
+	cursor:pointer;
+}
+
+.ajax-table-row-expandable.ajax-table-row-expanded .ajax-table-field-title > span {
+	background-image:url("../images/minus.jpg");
+}
+
+.ajax-table-field-created {
+	width:100px;
+	border-right:1px solid #fff;
+}
+
+.ajax-table-field-submissions {
+	width:92px;
+	border-right:1px solid #fff;
+}
+
+.ajax-table-field-published {
+	width:105px;
+	border-right:1px solid #fff;
+}
+
+.ajax-table-field-actions {
+	width:125px;
+}
+
+.ajax-table-field-actions a {
+	color:#288dd3;
+	text-decoration:none;
+}
+
+.ajax-table-expanding-content {
+	height:0px;
+	overflow:hidden;
+}
+
+.ajax-table-row-expandable.ajax-table-row-expanded .ajax-table-expanding-content {
+	height:auto;
+}
+
+
+.ajax-table-expanding-content > table {
+	border-spacing:0px;
+	border-collapse:collapse;
+	width:780px;
+}
+
+.ajax-table-expanding-content-info {
+	width:125px;
+	padding:20px 5px;
+	background:#f0f0f0;
+	padding:5px;
+	vertical-align:middle;
+	font-size:13px;
+}
+
+.ajax-sub-table {
+	width:645px;
+	border-top:1px solid #d0f5ff;
+}
+
+.ajax-sub-table-header {
+	border-top:1px solid #a8c4cf;
+	background:#f0f0f0;
+	height:35px;
+	line-height:35px;
+
+}
+
+.ajax-sub-table-header-field {
+	float:left;
+	padding:0px 5px;
+	height:34px;
+	line-height:34px;
+	font-size:13px;
+	color:#37798f;
+}
+
+.ajax-sub-table-header-publisher {
+	width:155px;
+	border-right:1px solid #d0f5ff;
+}
+
+.ajax-sub-table-header-status {
+	width:152px;
+	border-right:1px solid #d0f5ff;
+}
+
+.ajax-sub-table-header-order {
+	width:109px;
+	border-right:1px solid #d0f5ff;
+}
+
+.ajax-sub-table-header-price {
+	width:184px;
+	border-right:1px solid #d0f5ff;
+}
+
+.ajax-sub-table-content {
+
+}
+
+.ajax-sub-table-row {
+	height:40px;
+	border-bottom:1px solid #eff0f2;
+	background:white;
+}
+
+.ajax-sub-table-row:hover {
+	background:#f3f3f3;
+}
+
+.ajax-sub-table-sortable-rows .ajax-sub-table-row {
+	cursor:pointer;
+}
+
+.ajax-sub-table-row.ui-sortable-helper {
+	border-top:1px solid #eff0f2;
+}
+
+.ajax-sub-table-field {
+	height:40px;
+	line-height:40px;
+	font-size:13px;
+	float:left;
+	padding:0px 5px;
+}
+
+.ajax-sub-table-field-publisher {
+	width:155px;
+	border-right:1px solid #fff;
+}
+
+.ajax-sub-table-field-status {
+	width:152px;
+	border-right:1px solid #fff;
+}
+
+.ajax-sub-table-field-order {
+	width:109px;
+	border-right:1px solid #fff;
+}
+
+.ajax-sub-table-field-price {
+	width:54px;
+	border-right:1px solid #fff;
+}
+
+.ajax-sub-table-field-action {
+	width:120px;
+	border-right:1px solid #fff;
+}
