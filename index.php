@@ -2,8 +2,8 @@
 
 //include "data.php"; 
 
-include "../../../../libraries/utils.php";
-include "../../../../libraries/draft.php";
+include "../libraries/utils.php";
+include "../libraries/draft.php";
 
 $data = GetDraftTable();
 print_r($data);
