@@ -316,6 +316,7 @@ jQuery(document).ready(function($){
 	var ajax_start_queue = function( project_id , draft_id , status_fields){
 
 		$.post( AJAX_QUEUE_URL , {
+			"functionname" : 'StartSubmitting',
 			"draft_id" : draft_id,
 			"project_id" : project_id
 		},function( response ){
@@ -330,6 +331,7 @@ jQuery(document).ready(function($){
 	var ajax_order = function( draft_id , project_id , prev_project_id ){
 
 		$.post( AJAX_ORDER_URL , {
+			"functionname" : 'UpdateSubmissionRound',
 			"draft_id" : draft_id,
 			"project_id" : project_id,
 			"prev_project_id" : prev_project_id
